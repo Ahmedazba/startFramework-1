@@ -12,7 +12,7 @@ import Notfound from "./Components/Notfound/Notfound";
 
 const routes = createBrowserRouter([
   {
-    path: "/",
+    path: "",
     element: <Layout />,
     children: [
       {
@@ -31,11 +31,11 @@ const routes = createBrowserRouter([
         path: "contact",
         element: <Contact />,
       },
-      {
-        path: "*",
-        element: <Notfound />,
-      },
     ],
+  },
+  {
+    path: "*",
+    element: <Notfound />,
   },
 ]);
 
