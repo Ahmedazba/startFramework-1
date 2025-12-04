@@ -1,0 +1,18 @@
+.inner {
+  cursor: pointer;
+}
+
+.inner .layout {
+  opacity: 0;
+  transition: all 0.7s ease;
+  background-color: #1abc9c;
+}
+
+.inner:hover .layout {
+  opacity: 90% !important;
+  transition: all 0.7s ease;
+}
+
+.slide {
+  background-color: rgba(13, 110, 253, 0.25);
+}

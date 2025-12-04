@@ -1,0 +1,24 @@
+.custom-input {
+  position: relative;
+}
+
+.custom-input input {
+  padding-top: 12px;
+}
+
+.custom-input label {
+  position: absolute;
+  left: 20px;
+  bottom: 8px;
+  color: #777;
+  font-size: 16px;
+  transition: 0.3s;
+  pointer-events: none; /* علشان الضغط ما يحركوش */
+}
+
+/* لما تبدا كتابه */
+.custom-input label.active {
+  transform: translateY(-25px);
+  font-size: 13px;
+  color: #0d6efd;
+}
