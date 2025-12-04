@@ -31,11 +31,11 @@ const routes = createBrowserRouter([
         path: "contact",
         element: <Contact />,
       },
+      {
+        path: "*",
+        element: <Notfound />,
+      },
     ],
-  },
-  {
-    path: "*",
-    element: <Notfound />,
   },
 ]);
 
